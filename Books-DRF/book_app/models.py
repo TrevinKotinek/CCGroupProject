@@ -31,16 +31,6 @@ class Book(models.Model):
 
     def __str__(self):
         return self.title
-    
-class Description(models.Model):
-    isbn = models.CharField(max_length=30)
-    title = models.CharField(max_length=30)
-    author = models.CharField(max_length=30)
-    summary = models.CharField(max_length=150)
-    rating = models.CharField(max_length=30)
-
-    def __str__(self):
-        return (self.isbn + ": " + self.title + " by " + self.author + "\nRated: " + self.rating +"\nSummary: " + self.summary + "\n")
 
 
 class Review(models.Model):

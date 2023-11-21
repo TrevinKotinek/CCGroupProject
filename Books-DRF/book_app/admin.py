@@ -1,7 +1,6 @@
 from django.contrib import admin
-from book_app.models import *
+from book_app.models import Book, Review
 
 admin.site.register(Book)
-admin.site.register(Description)
 # admin.site.register(StreamPlatform)
 admin.site.register(Review)
