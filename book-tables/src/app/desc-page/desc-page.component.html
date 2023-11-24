@@ -1,1 +1,11 @@
-<p>desc-page works!</p>
+<div *ngIf="book">
+    <h2>{{ book.title }}</h2>
+    <p><strong>Author:</strong> {{ book.author }}</p>
+    <p><strong>ISBN:</strong> {{ book.isbn }}</p>
+    <p><strong>Description:</strong> {{ book.description }}</p>
+  
+    <!-- You can add more details as needed -->
+  
+    <button routerLink="/all-books">Back to Books List</button>
+  </div>
+  
