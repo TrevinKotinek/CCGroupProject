@@ -5,7 +5,7 @@ import { DescPageComponent } from './desc-page/desc-page.component';
 
 const routes:Routes = [
     {path:'', redirectTo: '/all-books', pathMatch: 'full'},
-    { path: 'books/:isbn', component: DescPageComponent },
+    { path: 'books/:', component: DescPageComponent },
     {path:'all-books', component:AllBooksComponent},
     {path:'description', component:DescPageComponent}
 ]
