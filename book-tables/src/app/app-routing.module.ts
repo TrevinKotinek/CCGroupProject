@@ -18,5 +18,7 @@ const routes:Routes = [
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+    constructor(private router: RouterModule) {}
+}
 export {routes};

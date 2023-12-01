@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { BookService } from '../book.service';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { DescPageComponent } from '../desc-page/desc-page.component';
 
 @Component({
   selector: 'app-all-books',
@@ -13,6 +14,7 @@ import { Observable } from 'rxjs';
 export class AllBooksComponent {
   allBooksApi = 'http://ec2-3-16-113-191.us-east-2.compute.amazonaws.com:8000/api/books/'
   books: any;
+  id: any;
 
   constructor(
     private router: Router,
@@ -31,6 +33,6 @@ export class AllBooksComponent {
     }
 
   nextPage(id: string): void{
-    this.router.navigate(['/books/:', {id: id}])
+    this.router.navigate(['/books/', id])
   }
 }

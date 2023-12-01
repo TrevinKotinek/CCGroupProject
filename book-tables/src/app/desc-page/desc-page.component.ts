@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { BookService } from '../book.service';
 import { Observable } from 'rxjs';
@@ -14,21 +14,27 @@ export class DescPageComponent {
   book: any;
   id: any;
   apiBookLink: any;
-  
+  currentRoute: any;
   constructor(
     private route: ActivatedRoute,
     private bookService: BookService,
-    private http: HttpClient
+    private http: HttpClient,
+    private router: Router
   ) {}
   
   // constructor(private route: ActivatedRoute, private http: HttpClient) { }
   ngOnInit(): void {
-    this.id = this.route.snapshot.paramMap.get('id');
+    this.currentRoute = this.router.url.split('/');
+    console.log(this.currentRoute);
+    this.id = parseInt(this.currentRoute[2]);
+    console.log(this.id)
+
+    
     
     this.getBook().subscribe((book: any) => {
       this.book = book;
     });
-    
+
     // this.book = this.getDummyBook(isbn || '');
     // this.http.get<any>(`${apiBaseUrl}/${isbn}`).subscribe(
     //   (response: any) => {
@@ -54,6 +60,11 @@ export class DescPageComponent {
 
   getBook(): Observable<any> {
     this.apiBookLink = apiBaseUrl + this.id;
+    console.log(this.apiBookLink);
     return this.http.get(`${this.apiBookLink}`);
+  }
+
+  setId(id: any): void {
+    this.id = id;
   }
 }
