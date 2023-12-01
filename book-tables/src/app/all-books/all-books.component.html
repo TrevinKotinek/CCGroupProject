@@ -15,8 +15,8 @@
         <th>Description</th>
     </thead>
 <tbody>
-    <tr *ngFor="let book of fakeData" (click)="nextPage(book.isbn)">
-        <td>{{ book.isbn }}</td>
+    <tr *ngFor="let book of books" (click)="nextPage(book.id)">
+        <td>{{ book.id }}</td>
         <td>{{ book.title }}</td>
         <td>{{ book.author }}</td>
         <td>{{ book.description }}</td>

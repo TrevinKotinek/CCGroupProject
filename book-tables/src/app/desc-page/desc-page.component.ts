@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { BookService } from '../book.service';
-const apiBaseUrl = 'http://localhost:8080';
+import { Observable } from 'rxjs';
+const apiBaseUrl = 'http://ec2-3-16-113-191.us-east-2.compute.amazonaws.com:8000/api/books/';
 @Component({
   selector: 'app-desc-page',
   templateUrl: './desc-page.component.html',
@@ -11,17 +12,23 @@ const apiBaseUrl = 'http://localhost:8080';
 })
 export class DescPageComponent {
   book: any;
+  id: any;
+  apiBookLink: any;
   
   constructor(
     private route: ActivatedRoute,
-    private bookService: BookService
+    private bookService: BookService,
+    private http: HttpClient
   ) {}
   
   // constructor(private route: ActivatedRoute, private http: HttpClient) { }
   ngOnInit(): void {
-    const isbn = this.route.snapshot.paramMap.get('isbn');
+    this.id = this.route.snapshot.paramMap.get('id');
     
-    this.book = this.bookService.getBookByIsbn(isbn || '');
+    this.getBook().subscribe((book: any) => {
+      this.book = book;
+    });
+    
     // this.book = this.getDummyBook(isbn || '');
     // this.http.get<any>(`${apiBaseUrl}/${isbn}`).subscribe(
     //   (response: any) => {
@@ -43,5 +50,10 @@ export class DescPageComponent {
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       // Add other properties as needed
     };
+  }
+
+  getBook(): Observable<any> {
+    this.apiBookLink = apiBaseUrl + this.id;
+    return this.http.get(`${this.apiBookLink}`);
   }
 }
