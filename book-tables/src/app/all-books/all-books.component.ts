@@ -12,7 +12,7 @@ import { DescPageComponent } from '../desc-page/desc-page.component';
   styleUrls: ['./all-books.component.css']
 })
 export class AllBooksComponent {
-  allBooksApi = 'http://ec2-3-16-113-191.us-east-2.compute.amazonaws.com:8000/api/books/'
+  allBooksApi = 'http://127.0.0.1:8000/api/books/'
   books: any;
   id: any;
 

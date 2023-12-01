@@ -58,6 +58,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "/api":{
+            "target":"http://127.0.0.1:8000/",
+            "secure": false
+          },
           "configurations": {
             "production": {
               "browserTarget": "book-tables:build:production"
@@ -97,5 +101,5 @@
   },
   "cli": {
     "analytics": false
-  }
+}
 }

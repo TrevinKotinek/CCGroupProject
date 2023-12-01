@@ -10,7 +10,7 @@ const routes:Routes = [
     { path: 'books/:', component: DescPageComponent },
     {path:'all-books', component:AllBooksComponent},
     {path:'description', component:DescPageComponent},
-    {path:'review', component:BookReviewComponent},
+    {path:'review/:', component:BookReviewComponent},
     {path:'create-review', component:CreateReviewComponent}
 ]
 

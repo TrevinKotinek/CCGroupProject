@@ -4,7 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { BookService } from '../book.service';
 import { Observable } from 'rxjs';
-const apiBaseUrl = 'http://ec2-3-16-113-191.us-east-2.compute.amazonaws.com:8000/api/books/';
+const apiBaseUrl = 'http://127.0.0.1:8000/api/books/';
 @Component({
   selector: 'app-desc-page',
   templateUrl: './desc-page.component.html',
@@ -57,10 +57,12 @@ export class DescPageComponent {
       // Add other properties as needed
     };
   }
+  getReview(){
+    this.router.navigate(['/review/', this.id]);
+  }
 
   getBook(): Observable<any> {
     this.apiBookLink = apiBaseUrl + this.id;
-    console.log(this.apiBookLink);
     return this.http.get(`${this.apiBookLink}`);
   }
 
