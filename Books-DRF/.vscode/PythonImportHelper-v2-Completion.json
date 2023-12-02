@@ -1,0 +1,1070 @@
+[
+    {
+        "label": "PageNumberPagination",
+        "importPath": "rest_framework.pagination",
+        "description": "rest_framework.pagination",
+        "isExtraImport": true,
+        "detail": "rest_framework.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "LimitOffsetPagination",
+        "importPath": "rest_framework.pagination",
+        "description": "rest_framework.pagination",
+        "isExtraImport": true,
+        "detail": "rest_framework.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "CursorPagination",
+        "importPath": "rest_framework.pagination",
+        "description": "rest_framework.pagination",
+        "isExtraImport": true,
+        "detail": "rest_framework.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "book_app.models",
+        "description": "book_app.models",
+        "isExtraImport": true,
+        "detail": "book_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "book_app.models",
+        "description": "book_app.models",
+        "isExtraImport": true,
+        "detail": "book_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "book_app.models",
+        "description": "book_app.models",
+        "isExtraImport": true,
+        "detail": "book_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "book_app.models",
+        "description": "book_app.models",
+        "isExtraImport": true,
+        "detail": "book_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "book_app.models",
+        "description": "book_app.models",
+        "isExtraImport": true,
+        "detail": "book_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "book_app.models",
+        "description": "book_app.models",
+        "isExtraImport": true,
+        "detail": "book_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRateThrottle",
+        "importPath": "rest_framework.throttling",
+        "description": "rest_framework.throttling",
+        "isExtraImport": true,
+        "detail": "rest_framework.throttling",
+        "documentation": {}
+    },
+    {
+        "label": "AnonRateThrottle",
+        "importPath": "rest_framework.throttling",
+        "description": "rest_framework.throttling",
+        "isExtraImport": true,
+        "detail": "rest_framework.throttling",
+        "documentation": {}
+    },
+    {
+        "label": "ScopedRateThrottle",
+        "importPath": "rest_framework.throttling",
+        "description": "rest_framework.throttling",
+        "isExtraImport": true,
+        "detail": "rest_framework.throttling",
+        "documentation": {}
+    },
+    {
+        "label": "UserRateThrottle",
+        "importPath": "rest_framework.throttling",
+        "description": "rest_framework.throttling",
+        "isExtraImport": true,
+        "detail": "rest_framework.throttling",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "book_app.api",
+        "description": "book_app.api",
+        "isExtraImport": true,
+        "detail": "book_app.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoFilterBackend",
+        "importPath": "django_filters.rest_framework",
+        "description": "django_filters.rest_framework",
+        "isExtraImport": true,
+        "detail": "django_filters.rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "rest_framework.exceptions",
+        "description": "rest_framework.exceptions",
+        "isExtraImport": true,
+        "detail": "rest_framework.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "pagination",
+        "importPath": "book_app.api ",
+        "description": "book_app.api ",
+        "isExtraImport": true,
+        "detail": "book_app.api ",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "book_app.api ",
+        "description": "book_app.api ",
+        "isExtraImport": true,
+        "detail": "book_app.api ",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "book_app.api ",
+        "description": "book_app.api ",
+        "isExtraImport": true,
+        "detail": "book_app.api ",
+        "documentation": {}
+    },
+    {
+        "label": "throttling",
+        "importPath": "book_app.api ",
+        "description": "book_app.api ",
+        "isExtraImport": true,
+        "detail": "book_app.api ",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "MinValueValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "MaxValueValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "MoneyField",
+        "importPath": "djmoney.models.fields",
+        "description": "djmoney.models.fields",
+        "isExtraImport": true,
+        "detail": "djmoney.models.fields",
+        "documentation": {}
+    },
+    {
+        "label": "obtain_auth_token",
+        "importPath": "rest_framework.authtoken.views",
+        "description": "rest_framework.authtoken.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "registration_view",
+        "importPath": "user_app.api.views",
+        "description": "user_app.api.views",
+        "isExtraImport": true,
+        "detail": "user_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "importPath": "user_app.api.views",
+        "description": "user_app.api.views",
+        "isExtraImport": true,
+        "detail": "user_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationSerializer",
+        "importPath": "user_app.api.serializers",
+        "description": "user_app.api.serializers",
+        "isExtraImport": true,
+        "detail": "user_app.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "user_app",
+        "description": "user_app",
+        "isExtraImport": true,
+        "detail": "user_app",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "APITestCase",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "BookListPagination",
+        "kind": 6,
+        "importPath": "book_app.api.pagination",
+        "description": "book_app.api.pagination",
+        "peekOfCode": "class BookListPagination(PageNumberPagination):\n    page_size = 3\n    page_query_param = 'p'\n    page_size_query_param = 'size'\n    max_page_size = 10\n    last_page_strings = 'end'\nclass BookListLOPagination(LimitOffsetPagination):\n    default_limit = 5\n    max_limit = 10\n    limit_query_param = 'limit'",
+        "detail": "book_app.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "BookListLOPagination",
+        "kind": 6,
+        "importPath": "book_app.api.pagination",
+        "description": "book_app.api.pagination",
+        "peekOfCode": "class BookListLOPagination(LimitOffsetPagination):\n    default_limit = 5\n    max_limit = 10\n    limit_query_param = 'limit'\n    offset_query_param = 'start'\nclass BookListCPagination(CursorPagination):\n    page_size = 5\n    ordering = 'created'\n    cursor_query_param = 'record'",
+        "detail": "book_app.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "BookListCPagination",
+        "kind": 6,
+        "importPath": "book_app.api.pagination",
+        "description": "book_app.api.pagination",
+        "peekOfCode": "class BookListCPagination(CursorPagination):\n    page_size = 5\n    ordering = 'created'\n    cursor_query_param = 'record'",
+        "detail": "book_app.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminOrReadOnly",
+        "kind": 6,
+        "importPath": "book_app.api.permissions",
+        "description": "book_app.api.permissions",
+        "peekOfCode": "class IsAdminOrReadOnly(permissions.IsAdminUser):\n    def has_permission(self, request, view):\n        if request.method in permissions.SAFE_METHODS:\n            return True\n        else:\n            return bool(request.user and request.user.is_staff)\nclass IsReviewUserOrReadOnly(permissions.BasePermission):\n    def has_object_permission(self, request, view, obj):\n        if request.method in permissions.SAFE_METHODS:\n            return True",
+        "detail": "book_app.api.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsReviewUserOrReadOnly",
+        "kind": 6,
+        "importPath": "book_app.api.permissions",
+        "description": "book_app.api.permissions",
+        "peekOfCode": "class IsReviewUserOrReadOnly(permissions.BasePermission):\n    def has_object_permission(self, request, view, obj):\n        if request.method in permissions.SAFE_METHODS:\n            return True\n        else:\n            return obj.review_user == request.user or request.user.is_staff",
+        "detail": "book_app.api.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewSerializer",
+        "kind": 6,
+        "importPath": "book_app.api.serializers",
+        "description": "book_app.api.serializers",
+        "peekOfCode": "class ReviewSerializer(serializers.ModelSerializer):\n    review_user = serializers.StringRelatedField(read_only=True)\n    class Meta:\n        model = Review\n        exclude = ('book',)\n        #fields = \"__all__\"\nclass BookListSerializer(serializers.ModelSerializer):\n    reviews = ReviewSerializer(many=True, read_only=True)\n    # platform = serializers.CharField(source='platform.name')\n    #avg_rating = serializers.ReadOnlyField",
+        "detail": "book_app.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "BookListSerializer",
+        "kind": 6,
+        "importPath": "book_app.api.serializers",
+        "description": "book_app.api.serializers",
+        "peekOfCode": "class BookListSerializer(serializers.ModelSerializer):\n    reviews = ReviewSerializer(many=True, read_only=True)\n    # platform = serializers.CharField(source='platform.name')\n    #avg_rating = serializers.ReadOnlyField\n    #number_rating = serializers.ReadOnlyField\n    class Meta:\n        model = Book\n        fields = \"__all__\"\n# class StreamPlatformSerializer(serializers.ModelSerializer):\n#     watchlist = WatchListSerializer(many=True, read_only=True)",
+        "detail": "book_app.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewCreateThrottle",
+        "kind": 6,
+        "importPath": "book_app.api.throttling",
+        "description": "book_app.api.throttling",
+        "peekOfCode": "class ReviewCreateThrottle(UserRateThrottle):\n    scope = 'review-create'\nclass ReviewListThrottle(UserRateThrottle):\n    scope = 'review-list'",
+        "detail": "book_app.api.throttling",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewListThrottle",
+        "kind": 6,
+        "importPath": "book_app.api.throttling",
+        "description": "book_app.api.throttling",
+        "peekOfCode": "class ReviewListThrottle(UserRateThrottle):\n    scope = 'review-list'",
+        "detail": "book_app.api.throttling",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "book_app.api.urls",
+        "description": "book_app.api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.BookListAV.as_view(), name='book-list'),\n    path('<int:pk>/', views.BookDetailAV.as_view(), name='book-detail'),    \n    # path('', include(router.urls)),\n    path('<int:pk>/reviews/create/', views.ReviewCreate.as_view(), name='review-create'),\n    path('<int:pk>/reviews/', views.ReviewList.as_view(), name='review-list'),\n    path('reviews/<int:pk>/', views.ReviewDetail.as_view(), name='review-detail'),\n    path('user-reviews/', views.UserReview.as_view(), name='user-review-detail'),\n]",
+        "detail": "book_app.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserReview",
+        "kind": 6,
+        "importPath": "book_app.api.views",
+        "description": "book_app.api.views",
+        "peekOfCode": "class UserReview(generics.ListAPIView):\n    serializer_class = serializers.ReviewSerializer\n    def get_queryset(self):\n        username = self.request.query_params.get('username', None)\n        return Review.objects.filter(review_user__username=username)\nclass ReviewCreate(generics.CreateAPIView):\n    serializer_class = serializers.ReviewSerializer\n    permission_classes = [IsAuthenticated]\n    throttle_classes = [throttling.ReviewCreateThrottle]\n    def get_queryset(self):",
+        "detail": "book_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewCreate",
+        "kind": 6,
+        "importPath": "book_app.api.views",
+        "description": "book_app.api.views",
+        "peekOfCode": "class ReviewCreate(generics.CreateAPIView):\n    serializer_class = serializers.ReviewSerializer\n    permission_classes = [IsAuthenticated]\n    throttle_classes = [throttling.ReviewCreateThrottle]\n    def get_queryset(self):\n        return Review.objects.all()\n    def perform_create(self, serializer):\n        pk = self.kwargs.get('pk')\n        book = Book.objects.get(pk=pk)\n        review_user = self.request.user",
+        "detail": "book_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewList",
+        "kind": 6,
+        "importPath": "book_app.api.views",
+        "description": "book_app.api.views",
+        "peekOfCode": "class ReviewList(generics.ListAPIView):\n    serializer_class = serializers.ReviewSerializer\n    throttle_classes = [throttling.ReviewListThrottle, AnonRateThrottle]\n    filter_backends = [DjangoFilterBackend]\n    filterset_fields = ['review_user__username', 'active']\n    def get_queryset(self):\n        pk = self.kwargs['pk']\n        return Review.objects.filter(book=pk)\nclass ReviewDetail(generics.RetrieveUpdateDestroyAPIView):\n    queryset = Review.objects.all()",
+        "detail": "book_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewDetail",
+        "kind": 6,
+        "importPath": "book_app.api.views",
+        "description": "book_app.api.views",
+        "peekOfCode": "class ReviewDetail(generics.RetrieveUpdateDestroyAPIView):\n    queryset = Review.objects.all()\n    serializer_class = serializers.ReviewSerializer\n    permission_classes = [permissions.IsReviewUserOrReadOnly]\n    throttle_classes = [ScopedRateThrottle, AnonRateThrottle]\n    throttle_scope = 'review-detail'\n# class StreamPlatformVS(viewsets.ModelViewSet):\n#     queryset = StreamPlatform.objects.all()\n#     serializer_class = serializers.StreamPlatformSerializer\n#     permission_classes = [permissions.IsAdminOrReadOnly]",
+        "detail": "book_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookListAV",
+        "kind": 6,
+        "importPath": "book_app.api.views",
+        "description": "book_app.api.views",
+        "peekOfCode": "class BookListAV(APIView):\n    permission_classes = [permissions.IsAdminOrReadOnly]\n    throttle_classes = [AnonRateThrottle]\n    def get(self, request):\n        books = Book.objects.all()\n        serializer = serializers.BookListSerializer(books, many=True)\n        return Response(serializer.data)\n    def post(self, request):\n        serializer = serializers.BookListSerializer(data=request.data)\n        if serializer.is_valid():",
+        "detail": "book_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookDetailAV",
+        "kind": 6,
+        "importPath": "book_app.api.views",
+        "description": "book_app.api.views",
+        "peekOfCode": "class BookDetailAV(APIView):\n    permission_classes = [permissions.IsAdminOrReadOnly]\n    throttle_classes = [AnonRateThrottle]\n    def get(self, request, pk):\n        try:\n            book = Book.objects.get(pk=pk)\n        except Book.DoesNotExist:\n            return Response({'error': 'Not found'}, status=status.HTTP_404_NOT_FOUND)\n        serializer = serializers.BookListSerializer(book)\n        return Response(serializer.data)",
+        "detail": "book_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "BooklistAppConfig",
+        "kind": 6,
+        "importPath": "book_app.apps",
+        "description": "book_app.apps",
+        "peekOfCode": "class BooklistAppConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'book_app'",
+        "detail": "book_app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "book_app.models",
+        "description": "book_app.models",
+        "peekOfCode": "class Book(models.Model):\n    isbn = models.CharField(max_length=10, default='0000000000000000', unique=True)\n    title = models.CharField(max_length=400)\n    #price = models.DecimalField(max_digits=5, decimal_places=2, default=0.00, null=False)   \n    price = MoneyField(max_digits=10, decimal_places=2, default_currency='USD', default=0.00, null=False)\n    summary = models.TextField()\n    author = models.CharField(max_length=200)\n    # platform = models.ForeignKey(StreamPlatform, on_delete=models.CASCADE, related_name=\"watchlist\")\n    # active = models.BooleanField(default=True)\n    avg_rating = models.FloatField(default=0, editable=False)",
+        "detail": "book_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "kind": 6,
+        "importPath": "book_app.models",
+        "description": "book_app.models",
+        "peekOfCode": "class Review(models.Model):\n    review_user = models.ForeignKey(User, on_delete=models.CASCADE)\n    rating = models.PositiveIntegerField(validators=[MinValueValidator(1), MaxValueValidator(5)])\n    description = models.CharField(max_length=200, null=True)\n    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name=\"reviews\")\n    active = models.BooleanField(default=True)\n    created = models.DateTimeField(auto_now_add=True)\n    update = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return str(self.rating) + \" | \" + self.book.title + \" | \" + str(self.review_user)",
+        "detail": "book_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationSerializer",
+        "kind": 6,
+        "importPath": "user_app.api.serializers",
+        "description": "user_app.api.serializers",
+        "peekOfCode": "class RegistrationSerializer(serializers.ModelSerializer):\n    password2 = serializers.CharField(style={'input_type': 'password'}, write_only=True)\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password', 'password2']\n        extra_kwargs = {\n            'password' : {'write_only': True}\n        }\n    def save(self):\n        password = self.validated_data['password']",
+        "detail": "user_app.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "user_app.api.urls",
+        "description": "user_app.api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('register/', registration_view, name='register'),\n    path('login/', obtain_auth_token, name='login'),\n    path('logout/', logout_view, name='logout'),\n    # path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),\n    # path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n]",
+        "detail": "user_app.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "user_app.api.views",
+        "description": "user_app.api.views",
+        "peekOfCode": "def logout_view(request):\n    if request.method == 'POST':\n        request.user.auth_token.delete()\n        return Response(status=status.HTTP_200_OK)\n@api_view(['POST',])\ndef registration_view(request):\n    if request.method == 'POST':\n        serializer = RegistrationSerializer(data=request.data)\n        data = {}\n        if serializer.is_valid():",
+        "detail": "user_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "registration_view",
+        "kind": 2,
+        "importPath": "user_app.api.views",
+        "description": "user_app.api.views",
+        "peekOfCode": "def registration_view(request):\n    if request.method == 'POST':\n        serializer = RegistrationSerializer(data=request.data)\n        data = {}\n        if serializer.is_valid():\n            account = serializer.save()\n            data['response'] = \"Registration Successful!\"\n            data['username'] = account.username\n            data['email'] = account.email\n            token = Token.objects.get(user=account).key",
+        "detail": "user_app.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserAppConfig",
+        "kind": 6,
+        "importPath": "user_app.apps",
+        "description": "user_app.apps",
+        "peekOfCode": "class UserAppConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'user_app'",
+        "detail": "user_app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "create_auth_token",
+        "kind": 2,
+        "importPath": "user_app.models",
+        "description": "user_app.models",
+        "peekOfCode": "def create_auth_token(sender, instance=None, created=False, **kwargs):\n    if created:\n        Token.objects.create(user=instance)",
+        "detail": "user_app.models",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterTestCase",
+        "kind": 6,
+        "importPath": "user_app.tests",
+        "description": "user_app.tests",
+        "peekOfCode": "class RegisterTestCase(APITestCase):\n    def test_register(self):\n        data = {\n            \"username\": \"testcase\",\n            \"email\": \"testcase@example.com\",\n            \"password\": \"NewPassword@123\",\n            \"password2\": \"NewPassword@123\"\n        }\n        response = self.client.post(reverse('register'), data)\n        self.assertEqual(response.status_code, status.HTTP_201_CREATED)",
+        "detail": "user_app.tests",
+        "documentation": {}
+    },
+    {
+        "label": "LoginLogoutTestCase",
+        "kind": 6,
+        "importPath": "user_app.tests",
+        "description": "user_app.tests",
+        "peekOfCode": "class LoginLogoutTestCase(APITestCase):\n    def setUp(self):\n        self.user = User.objects.create_user(username=\"example\",\n                                             password=\"NewPassword@123\")\n    def test_login(self):\n        data = {\n            \"username\": \"example\",\n            \"password\": \"NewPassword@123\"\n        }\n        response = self.client.post(reverse('login'), data)",
+        "detail": "user_app.tests",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "watchmate.asgi",
+        "description": "watchmate.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "watchmate.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-$*(4s7evu!!i0=3o#g1gqyf^60vqpveyw)e=+y%k(k51qe*+z('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-$*(4s7evu!!i0=3o#g1gqyf^60vqpveyw)e=+y%k(k51qe*+z('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'book_app',",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'book_app',\n    'rest_framework',\n    'rest_framework.authtoken',",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'watchmate.urls'",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "ROOT_URLCONF = 'watchmate.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'watchmate.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/dev/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\nDATABASES = {",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        # MySQL engine. Powered by the mysqlclient module.\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'books',\n        'USER': 'root',\n        'PASSWORD': 'Password$12',\n        'HOST': 'localhost',\n        'PORT': '3306',\n    }",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'America/Chicago'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "TIME_ZONE = 'America/Chicago'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # 'DEFAULT_PERMISSION_CLASSES': [",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # 'DEFAULT_PERMISSION_CLASSES': [\n    #     'rest_framework.permissions.IsAuthenticated',",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # 'DEFAULT_PERMISSION_CLASSES': [\n    #     'rest_framework.permissions.IsAuthenticated',\n    # ],\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        # 'rest_framework.authentication.BasicAuthentication',",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # 'DEFAULT_PERMISSION_CLASSES': [\n    #     'rest_framework.permissions.IsAuthenticated',\n    # ],\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        # 'rest_framework.authentication.BasicAuthentication',\n        'rest_framework.authentication.TokenAuthentication',\n        # 'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "watchmate.settings",
+        "description": "watchmate.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    # 'DEFAULT_PERMISSION_CLASSES': [\n    #     'rest_framework.permissions.IsAuthenticated',\n    # ],\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        # 'rest_framework.authentication.BasicAuthentication',\n        'rest_framework.authentication.TokenAuthentication',\n        # 'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n    # 'DEFAULT_THROTTLE_CLASSES': [",
+        "detail": "watchmate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "watchmate.urls",
+        "description": "watchmate.urls",
+        "peekOfCode": "urlpatterns = [\n    path('dashboard/', admin.site.urls),\n    path('api/books/', include('book_app.api.urls')),\n    path('api/account/', include('user_app.api.urls')),\n    # path('api-auth/', include('rest_framework.urls')),\n]",
+        "detail": "watchmate.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "watchmate.wsgi",
+        "description": "watchmate.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "watchmate.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'watchmate.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
