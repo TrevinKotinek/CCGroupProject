@@ -26,7 +26,7 @@ export class SignupComponent {
 
   onSubmit() {
     const { username, email, password, password2 } = this.signupForm.value;
-    this.http.post('http://localhost:8000/api/account/register/', { username, email, password, password2})
+    this.http.post('http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:8000/api/account/register/', { username, email, password, password2})
       .subscribe((response: any) => {
         console.log(response)
         this.router.navigate(['/login']);

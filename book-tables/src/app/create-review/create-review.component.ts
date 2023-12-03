@@ -63,6 +63,7 @@ export class CreateReviewComponent {
     this.http.post(`${this.apiReviewLink}/reviews/create/`,this.reviewForm.value, {headers})
     .subscribe(response => {
       // Handle the response from the backend if needed
+      console.log(headers)
       console.log('Django response:', response);
     });
     this.router.navigate(['/review/', this.id]);
