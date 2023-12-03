@@ -4,7 +4,7 @@ import { Review } from '../book-review/book-review.component';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
-const apiBaseUrl = 'http://127.0.0.1:8000/api/books/';
+const apiBaseUrl = 'http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:8000/api/books/';
 const authToken = localStorage.getItem('token')
 const headers = new HttpHeaders({
   'Content-Type': 'application/json',
