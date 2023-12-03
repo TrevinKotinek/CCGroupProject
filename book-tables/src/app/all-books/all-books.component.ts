@@ -23,6 +23,7 @@ export class AllBooksComponent {
     ){}
 
     ngOnInit(): void {
+      this.router.navigate(['/all-books']);
       this.getBooks().subscribe((books: any) => {
         this.books = books;
       });

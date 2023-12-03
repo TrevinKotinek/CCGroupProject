@@ -20,16 +20,16 @@ export class LoginComponent {
   }
 
   ngOnInit() {
-   
+    localStorage.clear();   
   }
 
   onSubmit() {
     const { username, password } = this.loginForm.value;
-
     this.http.post('http://localhost:8000/api/account/login/', { username, password })
       .subscribe((response: any) => {
         localStorage.setItem('token', response.token);
         localStorage.setItem('username', username);
+        location.reload
         // Navigate to a secured page or perform other actions
         this.router.navigate(['/all-books']);
       }, (error) => {

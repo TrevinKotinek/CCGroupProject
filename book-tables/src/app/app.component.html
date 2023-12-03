@@ -1,1 +1,12 @@
+<div id="header">
+    <div *ngIf="userId">
+      Welcome, User ID: {{ userId }}!
+      <div>
+        <button (click)="logout()">Logout</button>
+      </div>
+    </div>
+    <div *ngIf="!userId">
+      <!-- Display login or registration links -->
+    </div>
+</div>
 <router-outlet></router-outlet>
