@@ -1,12 +1,14 @@
 <div id="header">
-    <div id="logout" *ngIf="hasUser()">
-        <h1>
-            Uno Book Store
-        </h1>
-          
+    <div class="logout" *ngIf="hasUser()">
+        <div style="flex-grow: 8">
+            <h1>
+                Uno Book Store
+            </h1>
+        </div>
+                  
         <div id ="button">
-        Welcome, User ID: {{ userId }}!
-        <button (click)="logout()">Logout</button>
+            <h3>Welcome, {{ userId }}</h3> 
+            <button (click)="logout()">Logout</button>
         </div>
     </div>
     <div *ngIf="!hasUser()">
