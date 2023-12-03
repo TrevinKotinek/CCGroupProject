@@ -20,7 +20,9 @@ export class LoginComponent {
   }
 
   ngOnInit() {
-    localStorage.clear();   
+    if(localStorage.getItem('username') != null ){
+      this.router.navigate(['/all-books']);
+    }
   }
 
   onSubmit() {
@@ -29,6 +31,7 @@ export class LoginComponent {
       .subscribe((response: any) => {
         localStorage.setItem('token', response.token);
         localStorage.setItem('username', username);
+        window.location.reload();
         // Navigate to a secured page or perform other actions
         this.router.navigate(['/all-books']);
       }, (error) => {

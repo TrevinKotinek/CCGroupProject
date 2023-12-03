@@ -15,7 +15,8 @@ const routes:Routes = [
     {path:'all-books', component:AllBooksComponent},
     {path:'description', component:DescPageComponent},
     {path:'review/:', component:BookReviewComponent},
-    {path:'create-review/:', component:CreateReviewComponent}
+    {path:'create-review/:', component:CreateReviewComponent},
+    {path:'header', component:Headers}
 ]
 
 @NgModule({
