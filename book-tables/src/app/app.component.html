@@ -1,7 +1,7 @@
 <div id="header">
-    <div *ngIf="userId">
+    <div id="logout" *ngIf="userId">
       Welcome, User ID: {{ userId }}!
-      <div>
+      <div id ="button">
         <button (click)="logout()">Logout</button>
       </div>
     </div>

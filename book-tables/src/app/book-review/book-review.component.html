@@ -1,7 +1,8 @@
   <div *ngFor="let review of reviews">
-    <h3>{{ review.review_user }}</h3>
+    <h3>Reviewer: {{ review.review_user }}</h3>
     <p>Rating: {{ review.rating }}</p>
     <p>Description: {{ review.description }}</p>
   </div>
+  <br><br>
   <button (click)="backBook()">Back to Book</button>
   <button (click)="createReview()">Create Review</button>

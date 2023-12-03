@@ -11,6 +11,17 @@
     text-align: left;
 }
 
+div {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 60%;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center; 
+}
+
 h3 {
     color: #333;
     margin-bottom: 10px;

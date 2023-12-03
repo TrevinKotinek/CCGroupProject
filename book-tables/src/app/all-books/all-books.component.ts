@@ -20,20 +20,20 @@ export class AllBooksComponent {
     private router: Router,
     private bookService: BookService,
     private http: HttpClient
-    ){}
+  ) { }
 
-    ngOnInit(): void {
-      this.router.navigate(['/all-books']);
-      this.getBooks().subscribe((books: any) => {
-        this.books = books;
-      });
-    }
-    
-    getBooks(): Observable<any> {
-      return this.http.get(`${this.allBooksApi}`);
-    }
+  ngOnInit(): void {
+    this.router.navigate(['/all-books']);
+    this.getBooks().subscribe((books: any) => {
+      this.books = books;
+    });
+  }
 
-  nextPage(id: string): void{
+  getBooks(): Observable<any> {
+    return this.http.get(`${this.allBooksApi}`);
+  }
+
+  nextPage(id: string): void {
     this.router.navigate(['/books/', id])
   }
 }
