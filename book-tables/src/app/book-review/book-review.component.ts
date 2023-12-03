@@ -13,7 +13,7 @@ export interface Review {
   created: Date;
   update: Date;
 }
-const apiBaseUrl = 'http://127.0.0.1:8000/api/books/';
+const apiBaseUrl = 'http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:8000/api/books/';
 
 @Component({
   selector: 'app-book-review',
@@ -46,6 +46,13 @@ export class BookReviewComponent {
   getReviews(): Observable<Review[]> {
     this.apiReviewLink = apiBaseUrl + this.id;
     return this.http.get<Review[]>(`${this.apiReviewLink}/reviews/`);
+  }
+
+  backBook():void{
+    this.router.navigate(['/books/', this.id])
+  }
+  createReview(): void{
+    this.router.navigate(['/create-review/', this.id])
   }
 
 }

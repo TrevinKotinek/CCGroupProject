@@ -59,7 +59,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "/api":{
-            "target":"http://127.0.0.1:8000/",
+            "target":"http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:8000",
             "secure": false
           },
           "configurations": {

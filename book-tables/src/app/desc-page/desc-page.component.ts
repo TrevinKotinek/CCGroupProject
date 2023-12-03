@@ -4,7 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { BookService } from '../book.service';
 import { Observable } from 'rxjs';
-const apiBaseUrl = 'http://127.0.0.1:8000/api/books/';
+const apiBaseUrl = 'http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:8000/api/books/';
 @Component({
   selector: 'app-desc-page',
   templateUrl: './desc-page.component.html',

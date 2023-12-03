@@ -7,11 +7,11 @@ import { CreateReviewComponent } from './create-review/create-review.component';
 
 const routes:Routes = [
     {path:'', redirectTo: '/all-books', pathMatch: 'full'},
-    { path: 'books/:', component: DescPageComponent },
+    {path: 'books/:', component: DescPageComponent },
     {path:'all-books', component:AllBooksComponent},
     {path:'description', component:DescPageComponent},
     {path:'review/:', component:BookReviewComponent},
-    {path:'create-review', component:CreateReviewComponent}
+    {path:'create-review/:', component:CreateReviewComponent}
 ]
 
 @NgModule({
