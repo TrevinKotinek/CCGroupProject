@@ -12,6 +12,8 @@ import { routes } from './app-routing.module';
 import { BookReviewComponent } from './book-review/book-review.component';
 import { CreateReviewComponent } from './create-review/create-review.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AllBooksComponent,
     DescPageComponent,
     BookReviewComponent,
-    CreateReviewComponent
+    CreateReviewComponent,
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -28,11 +32,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    JwtModule.forRoot({
-      config: {
-        tokenGetter: () => localStorage.getItem('token'),
-      },
-    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

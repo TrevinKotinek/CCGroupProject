@@ -5,10 +5,10 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 const apiBaseUrl = 'http://127.0.0.1:8000/api/books/';
-
+const authToken = localStorage.getItem('token')
 const headers = new HttpHeaders({
   'Content-Type': 'application/json',
-  'Authorization': `Token 0577a8624648f9068da759f1ab74a400b9e59ac7`
+  'Authorization': `Token ${authToken}`
   });
 
 
@@ -47,6 +47,7 @@ export class CreateReviewComponent {
       this.reviewForm.get('book')?.patchValue(this.book.title);
     });
     console.log(this.reviewForm.controls)
+    this.reviewForm.get('review_user')?.patchValue(localStorage.getItem('username'))
 
     
   }

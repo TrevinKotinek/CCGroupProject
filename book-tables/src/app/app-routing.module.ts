@@ -4,10 +4,14 @@ import { AllBooksComponent } from './all-books/all-books.component';
 import { DescPageComponent } from './desc-page/desc-page.component';
 import { BookReviewComponent } from './book-review/book-review.component';
 import { CreateReviewComponent } from './create-review/create-review.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 const routes:Routes = [
     {path:'', redirectTo: '/all-books', pathMatch: 'full'},
-    {path: 'books/:', component: DescPageComponent },
+    {path:'login', component:LoginComponent},
+    {path:'signup', component:SignupComponent},
+    {path:'books/:', component: DescPageComponent },
     {path:'all-books', component:AllBooksComponent},
     {path:'description', component:DescPageComponent},
     {path:'review/:', component:BookReviewComponent},
