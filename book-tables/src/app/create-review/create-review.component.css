@@ -1,0 +1,56 @@
+/* Style for the review form */
+form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+/* Style for form sections */
+div {
+    margin-bottom: 20px;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Style for input and textarea */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* Style for the submit button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for disabled button */
+button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
