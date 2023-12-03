@@ -10,7 +10,7 @@
         height: 100vh;
     }
 
-    h2 {
+    h1, h2 {
         color: #333;
         text-align: center;
     }
