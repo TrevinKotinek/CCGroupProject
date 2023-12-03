@@ -1,5 +1,5 @@
 <div>
-    <h2>{{ book.title }}</h2>
+    <h2>Title: {{ book.title }}</h2>
     <p><strong>Author:</strong> {{ book.author }}</p>
     <p><strong>ISBN:</strong> {{ book.isbn }}</p>
     <p><strong>Price:</strong> {{book.price_currency}} {{ book.price }}</p>
@@ -8,7 +8,7 @@
     <!-- You can add more details as needed -->
   
     <button routerLink="/all-books">Back to Books List</button>
-    <button (click)="getReview()">reviews</button>
+    <button (click)="getReview()">Reviews</button>
 
   </div>
   
