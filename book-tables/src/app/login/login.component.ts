@@ -31,7 +31,7 @@ export class LoginComponent {
       .subscribe((response: any) => {
         localStorage.setItem('token', response.token);
         localStorage.setItem('username', username);
-        window.location.reload();
+        location.reload();
         // Navigate to a secured page or perform other actions
         this.router.navigate(['/all-books']);
       }, (error) => {
