@@ -1,8 +1,9 @@
-  <div *ngFor="let review of reviews">
-    <h3>Reviewer: {{ review.review_user }}</h3>
-    <p>Rating: {{ review.rating }}</p>
-    <p>Description: {{ review.description }}</p>
-  </div>
-  <br><br>
-  <button (click)="backBook()">Back to Book Details</button>
-  <button (click)="createReview()">Create Review</button>
+<app-header></app-header>
+<div *ngFor="let review of reviews">
+  <h3>Reviewer: {{ review.review_user }}</h3>
+  <p>Rating: {{ review.rating }}</p>
+  <p>Description: {{ review.description }}</p>
+</div>
+<br><br>
+<button (click)="backBook()">Back to Book Details</button>
+<button (click)="createReview()">Create Review</button>
