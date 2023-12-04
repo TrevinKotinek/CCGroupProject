@@ -5,7 +5,7 @@ npm install
 ng build
 cd ~
 chown -R "ec2-user:ec2-user" *
-sleep 120
+#sleep 120
 cp -r BookStore/book-tables/dist ~
 
 
