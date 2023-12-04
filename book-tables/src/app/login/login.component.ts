@@ -31,9 +31,8 @@ export class LoginComponent {
       .subscribe((response: any) => {
         localStorage.setItem('token', response.token);
         localStorage.setItem('username', username);
-        location.reload();
         // Navigate to a secured page or perform other actions
-        this.router.navigate(['/all-books']);
+        this.router.navigateByUrl('http://ec2-54-144-97-35.compute-1.amazonaws.com')
       }, (error) => {
         console.error('Login failed:', error);
         // Handle login error, show a message, etc.
