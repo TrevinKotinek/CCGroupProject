@@ -66,7 +66,7 @@ export class CreateReviewComponent {
       console.log(headers)
       console.log('Django response:', response);
     });
-    this.router.navigate(['/review/', this.id]);
+    this.router.navigate(['/books/', this.id]);
   }
 
   login(username: string, password: string): Observable<any> {
