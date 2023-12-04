@@ -6,7 +6,7 @@ files:
 
   - source: .
 
-    destination: /home/ec2-user/Books-DRF
+    destination: /home/ec2-user/BookStore
 
 hooks:
 
