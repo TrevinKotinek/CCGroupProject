@@ -1,0 +1,17 @@
+version: 0.2
+        
+phases:
+  install:
+    commands:
+      #- yum -y install mariadb
+
+  build:
+    commands:
+      #- cp 
+
+artifacts:
+  files:
+    - '**/*'      
+      
+      
+      
