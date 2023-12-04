@@ -1,15 +1,18 @@
 <app-header></app-header>
 <div>
-    <h1>Book Details</h1>
+    <h1>Book Detail</h1>
     <h2>Title: {{ book.title }}</h2>
     <p><strong>Author:</strong> {{ book.author }}</p>
     <p><strong>ISBN:</strong> {{ book.isbn }}</p>
     <p><strong>Price:</strong> {{book.price_currency}} {{ book.price }}</p>
     <p><strong>Description:</strong> <div id="desc" [innerHTML]="book.summary"></div>
+
+    <p><strong>Average Rating:</strong> {{ book.avg_rating }}</p>
+    <p><strong>Number of Rating:</strong> {{ book.number_rating }}</p>
   
     <!-- You can add more details as needed -->
   
-    <button routerLink="/all-books">Back to Books List</button>
+    <button routerLink="/all-books">Back to Book List</button>
     <button (click)="getReview()">Reviews</button>
 
 </div>
