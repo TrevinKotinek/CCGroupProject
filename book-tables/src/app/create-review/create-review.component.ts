@@ -47,7 +47,7 @@ export class CreateReviewComponent {
       this.reviewForm.get('book')?.patchValue(this.book.title);
     });
     console.log(this.reviewForm.controls)
-    this.reviewForm.get('review_user')?.patchValue(localStorage.getItem('username'))
+    // this.reviewForm.get('review_user')?.patchValue(localStorage.getItem('username'))
 
     
   }
