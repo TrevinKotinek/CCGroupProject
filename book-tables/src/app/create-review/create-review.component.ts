@@ -8,7 +8,7 @@ const apiBaseUrl = 'http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:800
 const authToken = localStorage.getItem('token')
 const headers = new HttpHeaders({
   'Content-Type': 'application/json',
-  'Authorization': `${authToken}`
+  'Authorization': `Token ${authToken}`
   });
 
 
@@ -59,11 +59,11 @@ export class CreateReviewComponent {
   }
   
   submitReview(): void  {
+    console.log(headers)
     this.apiReviewLink = apiBaseUrl + this.id;
     this.http.post(`${this.apiReviewLink}/reviews/create/`,this.reviewForm.value, {headers})
     .subscribe(response => {
       // Handle the response from the backend if needed
-      console.log(headers)
       console.log('Django response:', response);
     });
     this.router.navigate(['/books/', this.id]);
