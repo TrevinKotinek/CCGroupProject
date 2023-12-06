@@ -2,11 +2,12 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 
+/*
 const authToken = localStorage.getItem('token')
 const headers = new HttpHeaders({
   'Content-Type': 'application/json',
   'Authorization': `Token ${authToken}`
-  });
+  }); */
   
 @Component({
   selector: 'app-header',
@@ -16,6 +17,7 @@ const headers = new HttpHeaders({
 })
 export class HeaderComponent {
 
+  authToken: any;
   userId: string | null = null;
 
   constructor(private http: HttpClient, private router: Router, private ref: ChangeDetectorRef, private _ngZone: NgZone){
@@ -49,10 +51,15 @@ export class HeaderComponent {
   }
 
   ngOnInit(): void { 
+     this.authToken = localStorage.getItem('token')
   }
 
 
   logout():void{
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': `Token ${this.authToken}`
+      });
     localStorage.clear();
     this.userId = null  
     const username = this.userId;

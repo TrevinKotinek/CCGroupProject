@@ -5,11 +5,11 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 const apiBaseUrl = 'http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:8000/api/books/';
-const authToken = localStorage.getItem('token')
+/*
 const headers = new HttpHeaders({
   'Content-Type': 'application/json',
   'Authorization': `Token ${authToken}`
-  });
+  }); */
 
 
 @Component({
@@ -24,6 +24,7 @@ export class CreateReviewComponent {
   id: any;  
   currentRoute: any;
   apiReviewLink: any;
+  authToken: any;
   
   reviews: Review[] = [];
   
@@ -38,6 +39,7 @@ export class CreateReviewComponent {
   }
 
   ngOnInit(): void {
+    this.authToken = localStorage.getItem('token')
     this.currentRoute = this.router.url.split('/');
     console.log(this.currentRoute);
     this.id = parseInt(this.currentRoute[2]);
@@ -59,6 +61,10 @@ export class CreateReviewComponent {
   }
   
   submitReview(): void  {
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': `Token ${this.authToken}`
+      });
     console.log(headers)
     this.apiReviewLink = apiBaseUrl + this.id;
     this.http.post(`${this.apiReviewLink}/reviews/create/`,this.reviewForm.value, {headers})
