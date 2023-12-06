@@ -57,7 +57,7 @@ export class HeaderComponent {
     this.userId = null  
     const username = this.userId;
     this.router.navigate(['/login']);
-    this.http.post('http://localhost:8000/api/account/logout/', {username}, {headers})
+    this.http.post('http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:8000/api/account/logout/', {username}, {headers})
       .subscribe((response: any) => {
       }, (error) => {
         console.error('Logout failed:', error);
