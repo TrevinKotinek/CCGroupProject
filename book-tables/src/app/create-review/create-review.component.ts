@@ -8,7 +8,7 @@ const apiBaseUrl = 'http://ec2-52-15-151-109.us-east-2.compute.amazonaws.com:800
 const authToken = localStorage.getItem('token')
 const headers = new HttpHeaders({
   'Content-Type': 'application/json',
-  'Authorization': `Token ${authToken}`
+  'Authorization': `${authToken}`
   });
 
 
@@ -47,7 +47,7 @@ export class CreateReviewComponent {
       this.reviewForm.get('book')?.patchValue(this.book.title);
     });
     console.log(this.reviewForm.controls)
-    // this.reviewForm.get('review_user')?.patchValue(localStorage.getItem('username'))
+    this.reviewForm.get('review_user')?.patchValue(localStorage.getItem('username'))
 
     
   }
